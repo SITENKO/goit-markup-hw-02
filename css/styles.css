@@ -30,7 +30,7 @@ Portfolio
 
 body {
   color: var(--ptimary-text-color);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 }
 .link {
   text-decoration: none;
@@ -64,10 +64,10 @@ p {
   line-height: 1.19;
 }
 .studio-header {
-  color: #212121;
+  color: var(--titles-text-color);
 }
 .site-nav .site-link {
-  color: #212121;
+  color: var(--titles-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -77,7 +77,6 @@ p {
 }
 .auth-nav a {
   color: var(--ptimary-text-color);
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -112,7 +111,6 @@ p {
   min-width: 216px;
   padding: 10px 32px;
   cursor: pointer;
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -143,7 +141,6 @@ p {
   line-height: 1.18;
 }
 .profession {
-  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.18;
 }
@@ -156,13 +153,11 @@ footer {
 }
 .contact-address {
   color: #ffffff;
-  font-family: "Roboto";
   font-size: 14px;
   line-height: 1.71;
 }
 .contact-items {
   color: rgba(255, 255, 255, 0.6);
-  font-family: "Roboto";
   font-size: 14px;
   line-height: 1.71;
 }
@@ -172,7 +167,6 @@ footer {
   background-color: #f5f4fa;
   padding: 6px 22px;
   cursor: pointer;
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -188,8 +182,7 @@ footer {
 }
 /* our projects */
 .project-titles {
-  color: #212121;
-  font-family: "Roboto";
+  color: var(--titles-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
